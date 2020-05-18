@@ -13,7 +13,7 @@ from portfolioapp import views
 
 urlpatterns = [
     url(r'^$', views.HomePageView.as_view()),
-    url(r'about/',views.AboutPageView.as_view()),
+    url(r'project/',views.ProjectPageView.as_view()),
     url(r'contact/',views.ContactPageView.as_view()),
-] 
+]
 

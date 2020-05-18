@@ -7,9 +7,9 @@ class HomePageView(TemplateView):
     template_name =  "index.html"
     def post(self,request,**kwargs):
         return render(request,'index.html',context=None)
-    
-class AboutPageView(TemplateView):
-    template_name =  "about.html"
+
+class ProjectPageView(TemplateView):
+    template_name =  "project.html"
 
 class ContactPageView(TemplateView):
-    template_name =  "contact.html"    
+    template_name =  "contact.html"
